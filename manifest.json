@@ -1,0 +1,22 @@
+{
+  "name": "WTab",
+  "description": "WTab看板",
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "icons": {
+    "512": "images/pwa-512x512.png",
+    "192": "images/pwa-192x192.png",
+    "64": "images/pwa-64x64.png"
+  },
+  "action": {
+    "default_icon": {
+      "512": "images/pwa-512x512.png",
+      "192": "images/pwa-192x192.png",
+      "64": "images/pwa-64x64.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "wtab.html"
+  }
+}
